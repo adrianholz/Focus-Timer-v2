@@ -49,7 +49,7 @@ html:not(.light) .ph-moon {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-
+  transition: background-color 0.2s ease;
   display: grid;
   height: 100vh;
   place-content: center;
@@ -68,6 +68,10 @@ body {
   font-size: 9.6rem;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+#timer span {
+  transition: color 0.2s ease;
 }
 
 #controls {
